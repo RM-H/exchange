@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'yekan';
+    src: url("../fonts/Yekan.woff");
+}
+
+body {
+    font-family: yekan !important;
+    min-height: 100dvh;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.16);
+    padding: 1rem 0;
+}
+
+
+.paddingx {
+    padding-right: 9rem;
+    padding-left: 9rem;
+}
+
+.navboldtext {
+    font-weight: 950;
+    font-size: 2rem;
+}
+
+
+/*colors*/
+
+.clrone {
+    background-color: #5260FE;
+    color: #fff;
+}
+
+.clrtwo {
+    color: black;
+}
+
+.clrthree {
+    background-color: black !important;
+    color: white;
+}
+
+.clrfour {
+    color:  rgba(254, 124, 82, 1);
+;
+}
+
+.clrfive {
+    color: rgba(82, 96, 254, 1);
+
+}
+
+
+.bggrad1 {
+    background: linear-gradient(258.02deg, rgba(255, 216, 204, 0.5) 21.85%, rgba(220, 255, 216, 0.5) 48.34%, rgba(213, 216, 252, 0.5) 82.44%);
+
+
+}
+
+
+/*radious*/
+.borderrad1 {
+    border-radius: 1.9rem;
+}
+
+.borderrad2 {
+    border-radius: 50%;
+}
+
+
+
+
+/*cards*/
+
+
+.card {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.24);
+    min-height: 16rem;
+}

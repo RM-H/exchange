@@ -4,7 +4,7 @@ import {NightlightOutlined,Circle} from '@mui/icons-material'
 const Navbar = () => {
   return (
       <>
-          <nav className="navbar paddingx" role="navigation" aria-label="main navigation">
+          <nav className="navbar paddingx   " role="navigation" aria-label="main navigation">
               <div className="navbar-brand">
                   <a className="navbar-item yekan navboldtext " href="https://bulma.io">
 
@@ -29,7 +29,7 @@ const Navbar = () => {
                       </a>
 
                       <a className="navbar-item">
-                          <Circle sx={{fontSize:'0.7rem'}} className='clrfour'/>
+                          <Circle sx={{fontSize:'0.7rem'}} className='clrfourtext'/>
                           قیمت ارزهای جهانی
                       </a>
 
@@ -89,11 +89,11 @@ const Navbar = () => {
                               <a className="navbar-item borderrad2 clrthree">
                                   <NightlightOutlined/>
                               </a>
-                              <a className="clrtwo">
+                              <a className="clrtwo is-size-5">
 
                                   ورود
                               </a>
-                              <a className="button clrone borderrad1">
+                              <a className="button clrone borderrad1 is-size-5">
                                   ثبت نام
                               </a>
                           </div>

@@ -3,17 +3,35 @@
     src: url("../fonts/Yekan.woff");
 }
 
+.button {
+    border: none;
+    outline: none;
+}
+
+.columns {
+    margin: 0;
+}
+
 body {
     font-family: yekan !important;
     min-height: 100dvh;
+    width: 100dvw;
 }
 
 .navbar {
-    background-color: rgba(255, 255, 255, 0.16);
+
+    background-color: rgba(255, 255, 255, 0);
+
     padding: 1rem 0;
 }
 
 
+/*paddings and borders*/
+
+.borderxwhite {
+    border-right : 1px solid white;
+    border-left : 1px solid white;
+}
 .paddingx {
     padding-right: 9rem;
     padding-left: 9rem;
@@ -42,12 +60,36 @@ body {
 }
 
 .clrfour {
+    background-color:  rgba(254, 124, 82, 1);
+    color: white;
+
+}
+
+.clrfourtext {
     color:  rgba(254, 124, 82, 1);
-;
+
 }
 
 .clrfive {
     color: rgba(82, 96, 254, 1);
+
+}
+
+.clrsix {
+    background-color: white;
+    color: black;
+}
+
+.clrseven {
+    background-color: #F7F8FDFF;
+}
+
+.clreighttext {
+    color: #808080;
+
+}
+.clrnine {
+    background: linear-gradient(90deg, #BEFBB6 0%, #BEFBB6 100%);
 
 }
 
@@ -69,6 +111,11 @@ body {
 }
 
 
+/*shadows*/
+.shadowone {
+    box-shadow: 0.3rem 0.3rem 0 #000;
+}
+
 
 
 /*cards*/
@@ -78,4 +125,19 @@ body {
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.24);
     min-height: 16rem;
+}
+
+
+.aboutcard {
+    min-height: 14rem;
+    box-shadow: 0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
+  text-align: center;
+    border-radius: 1rem;
+
+
+}
+.aboutcard img {
+    transform: translateY(-3rem);
+
+
 }
